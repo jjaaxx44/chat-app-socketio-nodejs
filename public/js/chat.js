@@ -80,7 +80,7 @@ $chatForm.addEventListener('submit', (event) => {
 
 $locationButton.addEventListener('click', (event) => {
 	if (!navigator.geolocation) {
-		return alert('geo location is not supported by your broser')
+		return alert('geo location is not supported by your browser')
 	}
 	event.preventDefault()
 	$locationButton.setAttribute('disabled', 'disabled')
